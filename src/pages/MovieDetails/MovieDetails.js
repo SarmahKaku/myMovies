@@ -77,10 +77,10 @@ const MovieDetails = () => {
                         <a href={movieDetails.homepage} target='_blank' rel="noreferrer">Learn More</a>
                     </div>
                     <div className='main'>
-                        <p><strong>Budget:</strong> {movieDetails.budget}</p>
-                        <p><strong>Popularity:</strong> {movieDetails.popularity}</p>
-                        <p><strong>Release Date:</strong> {movieDetails.release_date}</p>
-                        <p><strong>Revenue:</strong> {movieDetails.revenue}</p>
+                        <p><strong>Budget</strong><br/>{movieDetails.budget}</p>
+                        <p><strong>Popularity</strong><br/> {movieDetails.popularity}</p>
+                        <p><strong>Release Date</strong><br/> {movieDetails.release_date}</p>
+                        <p><strong>Revenue</strong><br/> {movieDetails.revenue}</p>
                     </div>
                     <div className='sidebar'>
                         <List title="Languages" data={movieDetails.spoken_languages && movieDetails.spoken_languages.length > 0 ? movieDetails.spoken_languages : []}/>

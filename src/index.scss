@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroundBG);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -31,7 +32,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
-    color:var(--black);
+    color:var(--textColor);
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

@@ -1,11 +1,14 @@
 .movie-details-main {
     padding: 1rem;
     display: grid;
-    grid-template-columns: 2fr 6fr;
+    grid-template-columns: 3fr 6fr;
     gap: 1rem;
 
     .movie-poster {
         width: 100%;
+        img {
+            width:100%;
+        }
     }
 
     .movie-content-main {
@@ -37,6 +40,9 @@
                 }
                 p{
                     color:var(--white);
+                    strong {
+                        color:var(--white);
+                    }
                 }
             }
 

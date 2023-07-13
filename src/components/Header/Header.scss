@@ -1,15 +1,24 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: var(--backgroundBG);
+    background-color: var(--navcolor);
     padding:1rem;
     h1 {
         font-size: 2rem;
-        color: var(--primaryColor);
+        color: var(--white);
     }
     ul {
         display: flex;
         gap:0 1rem;
         align-items: center;
+        li {
+            padding: 0 0.5rem;
+            &:last-child {
+                margin-left: 1rem;
+            }
+            a {
+                color: var(--white);
+            }
+        }
     }
 }

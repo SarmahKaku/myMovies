@@ -1,9 +1,26 @@
-:root{
-    --backgroundBG:#e5e5e6;
-    --primaryColor:#0040a7;
+:root[class="light"] {
+    --backgroundBG:#ffffff;
+    --primaryColor:#04759a;
+    --navcolor: #880683;
+    --navText:#e2e1e1;
     --secondaryColor:#005792;
-    --textColor:#fdb44b;
+    --textColor:#026891;
     --headingColor:#00bbf0;
     --black:#2b2a2a;
     --white:#e2e1e1;
+    --avatarbg:#eceaea;
+    --avatarNopic:#2b2a2a;
+}
+:root[class="dark"] {
+    --backgroundBG:#024f5b;
+    --primaryColor:#33c0d6;
+    --navcolor: #026978;
+    --navText:#e2e1e1;
+    --secondaryColor:#14889a;
+    --textColor:#09aff1;
+    --headingColor:#c102ba;
+    --black:#2b2a2a;
+    --white:#e2e1e1;
+    --avatarbg:#ffffff;
+    --avatarNopic:#e2e1e1;
 }

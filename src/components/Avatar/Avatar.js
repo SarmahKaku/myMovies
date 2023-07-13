@@ -10,7 +10,7 @@ const Avatar = (props) => {
                 <div className="nametitle text-center">
                     <h3>{name}</h3>
                     <h5>{known_for_department}</h5>
-                    <h5>{character}</h5>
+                    <p>{character}</p>
                 </div>
             </div>
     )

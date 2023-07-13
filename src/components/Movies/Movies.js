@@ -36,8 +36,6 @@ const Movies = () => {
     useEffect(() => {
         getMovies()
         setPageno(id)
-
-        console.log('dispatch',dispatch);
     }, [id])
 
 
