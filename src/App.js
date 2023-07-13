@@ -1,5 +1,5 @@
 
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import {createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
 
 
 import Dashboard from './pages/Dashboard/Dashboard';
@@ -20,7 +20,7 @@ function App() {
             children:[
                 {
                     path:'/',
-                    element:<Movies/>,
+                    element:<Navigate to="/movies/1" />,
                 },
                 {
                     path:'/movies/:id',
