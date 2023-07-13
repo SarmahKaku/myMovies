@@ -6,7 +6,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+`Project URL : https://github.com/SarmahKaku/myMovies`
+## Usage
+
+```python
+git clone 
+cd myMovies
+
+Create a .env file in the Root dir and Create a variable called:
+REACT_APP_API_KEY='Bearer CODEHERE'
+
+npm install 
+npm start
+```
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
