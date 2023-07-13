@@ -1,0 +1,44 @@
+.card-main {
+    //https://getcssscan.com/css-box-shadow-examples
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 0.4rem;
+    .card-image {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            z-index: 10;
+            border-radius: 0.4rem;
+        }
+
+        &:hover {
+            .card-overview {
+                translate: 0px;
+            }
+        }
+
+        .card-overview {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            transition: all 1s;
+            translate: -500px;
+            z-index: 100;
+            background-color: rgba(255, 255, 255, 0.7);
+            color: var(---textColor);
+            padding: 1rem;
+            border-radius: 0.4rem;
+            h4 {
+                margin-bottom: 1rem;
+            }
+        }
+
+    }
+    .card-content {
+        padding: 0.8rem;
+        
+    }
+
+}

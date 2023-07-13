@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backgroundBG);
+    padding:1rem;
+    h1 {
+        font-size: 2rem;
+        color: var(--primaryColor);
+    }
+    ul {
+        display: flex;
+        gap:0 1rem;
+        align-items: center;
+    }
+}
