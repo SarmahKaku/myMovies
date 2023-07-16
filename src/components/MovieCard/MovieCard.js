@@ -16,11 +16,13 @@ const MovieCard = (props) => {
                 </div>
             </div>
             <div className='card-content'>
-                <h3>{title}</h3>
+                <h4>{title}</h4>
                 <p>Release date: {release_date}</p>
-            </div>
-            <div className='card-footer'>
                 
+                <div className='card-footer'>
+                   
+                    
+                </div>
             </div>
             </Link>
         </div>

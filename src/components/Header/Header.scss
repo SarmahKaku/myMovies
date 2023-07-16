@@ -5,7 +5,7 @@ header {
     padding:1rem;
     h1 {
         font-size: 2rem;
-        color: var(--white);
+        color: var(--navText);
     }
     ul {
         display: flex;
@@ -17,7 +17,7 @@ header {
                 margin-left: 1rem;
             }
             a {
-                color: var(--white);
+                color: var(--navText);
             }
         }
     }

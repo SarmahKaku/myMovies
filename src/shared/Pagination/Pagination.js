@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Pagination.scss'
 
 const Pagination = (props) => {
-    const pagination = [1,2,3,4,5,6,7,8,9,10,77]
+    const pagination = [1,2,3,4,5]
     return (
         <div className="pagination">
             <div>

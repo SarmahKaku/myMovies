@@ -1,19 +1,18 @@
 .card-main {
     //https://getcssscan.com/css-box-shadow-examples
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 0.4rem;
+    //box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: relative;
     .card-image {
         position: relative;
         overflow: hidden;
         img {
             width: 100%;
             z-index: 10;
-            border-radius: 0.4rem;
         }
 
         &:hover {
             .card-overview {
-                translate: 0px;
+               translate: 0px;
             }
         }
 
@@ -23,23 +22,41 @@
             left: 0;
             bottom: 0;
             right: 0;
-            transition: all 1s;
+            transition: all 2s;
             translate: -500px;
             z-index: 100;
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: rgba(0, 0, 0, 0.8);
             color: var(--textColor);
             padding: 1rem;
-            border-radius: 0.4rem;
             h4 {
                 margin-bottom: 1rem;
+            }
+        }
+        &:hover {
+            img {
+                -webkit-filter: grayscale(100%); 
+                filter: grayscale(100%);
+                transform: scale(1.4);
+                transition: all 1s;
             }
         }
 
     }
     .card-content {
-        padding: 0.8rem;
-        h3,p {
-            color: var(--textColor);
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: calc(100% - 20px);
+        background-color:var(--black);
+        h4,p {
+            color: var(--backgroundBG);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .card-footer {
+           //
         }
     }
 
